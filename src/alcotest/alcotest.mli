@@ -141,3 +141,5 @@ module Cli : module type of Cli
 
 module Monad : module type of Monad
 (** Monad signatures for use with {!Core} and {!Cli}. *)
+
+module Platform : module type of Platform
