@@ -39,7 +39,7 @@ let sorted_list () =
 
 let () =
   let open Alcotest in
-  run "passing testables"
+  Alcotest_unix.run "passing testables"
     [
       ( "reflexive basic",
         [
